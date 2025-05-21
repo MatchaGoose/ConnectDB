@@ -15,8 +15,8 @@ Create a `.env` file in the backend directory with the provided variables:\
 `cd backend`\
 `python3 -m venv venv`\
 `source venv/bin/activate`\
-`pip install -r requirements.txt`\
-`fastapi dev main.py`
+`pip3 install -r requirements.txt`\
+`python -m uvicorn main:app --reload`
 
 ## View the app
 
