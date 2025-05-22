@@ -13,9 +13,8 @@ Read-only key:\
 `npm install`\
 `npm run dev`
 
-Open a new terminal.
-
 ### Backend
+Open a new terminal.
 `cd backend`\
 `python3 -m venv venv`\
 `source venv/bin/activate`\
