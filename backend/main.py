@@ -23,6 +23,5 @@ app.add_middleware(
 
 @app.get("/rows")
 def get_rows():
-    print("Getting rows")
     response = supabase.table("TestDB").select("*").execute()
     return response.data
