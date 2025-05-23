@@ -8,7 +8,7 @@ export default function Home() {
 
   useEffect(() => {
     const fetchRows = async () => {
-      const response = await fetch("http://localhost:8000/rows"); // Adjust the URL if needed
+      const response = await fetch("http://localhost:8000/rows");
       const data = await response.json();
       setRows(data);
     };
